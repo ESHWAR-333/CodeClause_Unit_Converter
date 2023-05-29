@@ -145,7 +145,7 @@ body{
     .input{
         width: 90px;
         padding: 5px 10px;
-        border-radius: 10px;
+        border-radius: 5px;
         outline: none;
         border: 0px;
     }
@@ -158,13 +158,10 @@ body{
     }
     .labelText{
         font-weight: 700;
-        font-size: 15px;
+        font-size: 14px;
     }
     .button2{
         background-color: transparent;
     }
     
-    .details-container{
-        margin-top: 10px;
-    }
 }

@@ -84,28 +84,86 @@ body{
 }
 
 @media screen and (max-width:768px){
+    
+    .navImage{
+        width: 100px;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 45px;
+    }
     .converter-container{
         background-color: gray;
-        padding: 10px;
-        width: 430px;
+        padding: 10px 10px;
+        width: 310px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         border-radius: 4px;
+        margin: auto;
+    }
+    .input-main-container{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .button{
+        margin: 0px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 0px;
+        outline: none;
+        cursor: pointer;
+    }
+    .unit-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        width: 300px;
+        flex-wrap: wrap;
+        padding: 10px 30px;
+    }
+    .unit{
+        background-color: rgb(185, 192, 192);
+        padding:5px 10px;
+        border-radius: 3px;
+        margin: 5px;
+        
+    }
+    .input-sub-container{
+        display: flex;
+        flex-direction: column;
     }
     .input{
-        width: 120px;
+        width: 90px;
         padding: 5px 10px;
         border-radius: 10px;
         outline: none;
         border: 0px;
     }
     .selectInput{
-        width: 130px;
+        width: 100px;
         padding: 5px 10px;
         border-radius: 10px;
         outline: none;
         border: 0px;
+    }
+    .labelText{
+        font-weight: 700;
+    }
+    .button2{
+        background-color: transparent;
+    }
+    
+    .details-container{
+        margin-top: 10px;
     }
 }

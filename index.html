@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <nav class="navBar-container">
+        <div>
+            <img src="unit.jpg" class="navImage"/>
+        </div>
+    </nav>
+    <div class="main-container">
+        <h1>Unit Converter</h1>
+        <div class="unit-main-container">
+            <ul class="unit-container">
+                <button type="button" id="lengthBtn" class="button unit">Length</button>
+                <button type="button" id="tempBtn" class="button unit">Temperature</button>
+                <button type="button" id="areaBtn" class="button unit">Area</button>
+                <button type="button" id="volumeBtn" class="button unit">Volume</button>
+                <button type="button" id="weightBtn" class="button unit">Weight</button>
+                <button type="button" id="timeBtn" class="button unit">Time</button>
+            </ul>
+        </div>
+        <div class="converter-container" >
+            <div class="input-main-container">
+                <div class="input-sub-container">
+                    <label class="labelText">From</label>
+                    <input id="fromId" class="input" type="text"/>
+                </div>
+                <div class="input-sub-container">
+                    <label class="labelText">To</label>
+                    <input id="toId" class="input" type="text"/>
+                </div>
+            </div>
+            <div>
+                <button type="button" class="button" id="convertBtnId">Covert</button>
+                
+            </div>
+                
+            
+            <div class="input-main-container">
+                <div >
+                    <select id="selectId1" class="selectInput">
+                        
+                    </select>
+                </div>
+                <div >
+                    <select id="selectId2" class="selectInput">
+                        
+                    </select>
+                </div>
+            </div>
+            <button type="button" class="button button2" id="restBtnId"><span class="material-symbols-outlined">
+                restart_alt
+                </span></button>
+        </div>
+        
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>

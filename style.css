@@ -158,6 +158,7 @@ body{
     }
     .labelText{
         font-weight: 700;
+        font-size: 15px;
     }
     .button2{
         background-color: transparent;
